@@ -3,4 +3,4 @@ Description=Automatic Wallpaper
 
 [Service]
 Type=simple
-ExecStart=/home/kayc/.dotfiles/.local/share/bin/autowallpaper.sh
+ExecStart=/home/ayush/.dotfiles/.local/share/bin/autowallpaper.sh

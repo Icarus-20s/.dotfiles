@@ -11,7 +11,6 @@
     "reload_style_on_change": true,
 
     // positions generated based on config.ctl //
-
     // "modules-center": ["custom/padd","custom/l_end","cpu","memory","custom/cpuinfo","custom/gpuinfo","custom/r_end","custom/l_end","idle_inhibitor","clock","custom/r_end","custom/padd"],
     // "modules-left": ["custom/padd","custom/l_end","hyprland/workspaces","hyprland/window","custom/r_end","custom/padd"],
     // "modules-right": ["custom/padd","custom/l_end","backlight","network","pulseaudio","pulseaudio#microphone","custom/updates","custom/keybindhint","custom/r_end","custom/l_end","privacy","tray","battery","custom/r_end","custom/l_end","custom/wallchange","custom/theme","custom/wbar","custom/cliphist","custom/power","custom/r_end","custom/padd"],
@@ -65,7 +64,7 @@
         "interval": 5,
         "exec": "gpustate.sh",
         "menu": "on-click",
-        "menu-file": "/home/kayc/.config/waybar/gfx_menu.xml",
+        "menu-file": "/home/ayush/.config/waybar/gfx_menu.xml",
         "menu-actions": {
             "Integrated": "changegpustate.sh -i",
             "Hybrid": "changegpustate.sh -h"
@@ -78,7 +77,7 @@
         "interval": 5,
         "exec": "powerprofiles.sh",
         "menu": "on-click",
-        "menu-file": "/home/kayc/.config/waybar/powerprofiles_menu.xml",
+        "menu-file": "/home/ayush/.config/waybar/powerprofiles_menu.xml",
         "menu-actions": {
             "Performance": "changepowerprofile.sh -p",
             "Balanced": "changepowerprofile.sh -b",
@@ -223,7 +222,7 @@
         "rotate": 0,
         "separate-outputs": true,
         "rewrite": {
-            "kayc@arch:(.*)": "$1 ",
+            "ayush@arch:(.*)": "$1 ",
             "(.*) — Mozilla Firefox": "$1 󰈹",
             "(.*)Mozilla Firefox": "Firefox 󰈹",
             "(.*) - Visual Studio Code": "$1 󰨞",
@@ -240,8 +239,8 @@
         "rotate": 0,
         "format": "{icon} {percent}%",
         "format-icons": ["", "", "", "", "", "", "", "", ""],
-        "on-scroll-up": "brightnessctl set 1%+",
-        "on-scroll-down": "brightnessctl set 1%-",
+        "on-scroll-up": "brightnesscontrol.sh -i 5",
+        "on-scroll-down": "brightnesscontrol.sh -d 5",
         "min-length": 6
     },
 
@@ -259,7 +258,7 @@
     },
 
     "pulseaudio": {
-        "format": "{icon} {volume}",
+        "format": "{icon}  {volume}",
         "rotate": 0,
         "format-muted": "婢",
         "on-click": "volumecontrol.sh -o m",

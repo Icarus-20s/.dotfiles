@@ -1,6 +1,6 @@
 #!/usr/bin/env sh
 
-wallpaperDirectory="/home/kayc/Misc/Wallpapers"
+wallpaperDirectory="/home/ayush/Misc/Wallpapers"
 
 # choose random wallpaper from directory including subdirectories and set it as wallpaper
 

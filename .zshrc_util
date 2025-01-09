@@ -1,6 +1,6 @@
 timer() {
     local seconds=0
-    local sound_file="/home/kayc/Misc/Sounds/notification.wav"  # Path to the sound file
+    local sound_file="/home/ayush/Misc/Sounds/notification.wav"  # Path to the sound file
 
     # Check for the -s flag
     if [[ $1 == "-s" ]]; then

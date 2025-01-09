@@ -25,7 +25,7 @@ for heic_file in "$SOURCE_DIR"/*.HEIC; do
   
   # Convert HEIC to JPEG using heif-convert
   # heif-convert "$heic_file" "$DEST_DIR/$filename.jpeg"
-  /home/kayc/Downloads/tifig -q 100 -p -v "$heic_file" -o "$DEST_DIR/$filename.jpeg"
+  /home/ayush/Downloads/tifig -q 100 -p -v "$heic_file" -o "$DEST_DIR/$filename.jpeg"
 
   
   echo "Converted $heic_file to $DEST_DIR/$filename.jpeg"

@@ -3,15 +3,8 @@
 [init]
 	defaultBranch = main
 [user]
-	email = ghstkayc@gmail.com
-	name = kayc
-[credential]
-    helper = store
-[init]
-    defaultBranch = main
-[user]
-    email = ghstkayc@gmail.com
-    name = kayc
+	email = ayushask.2002@gmail.com
+	name = ayush
 [color]
 	ui = true
 [alias]
@@ -19,7 +12,7 @@
     alias = "config --global --get-regexp ^alias\\."
     cloner = "!f(){ git clone https://github.com/$1/$2.git $3; }; f"
     pom = "push -u origin main"
-    rao = "!f(){ git remote add origin https://github.com/kayceem/$1.git; }; f"
+    rao = "!f(){ git remote add origin https://github.com/Icarus-20s/$1.git; }; f"
     rhh = "reset --hard HEAD"
     size = "count-objects -v"
     st = "status"

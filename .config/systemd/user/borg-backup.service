@@ -3,5 +3,5 @@ Description=Borg Backup Service
 
 [Service]
 Type=simple
-Environment=BORG_PASSPHRASE='Kaycee@logang1'
-ExecStart=/bin/bash /home/kayc/.local/share/bin/createbackup.sh
+Environment=BORG_PASSPHRASE='ayushee@logang1'
+ExecStart=/bin/bash /home/ayush/.local/share/bin/createbackup.sh
