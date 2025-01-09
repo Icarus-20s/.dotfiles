@@ -217,7 +217,7 @@
     max_icon_size = 128
 
     # Paths to default icons (only necessary when not using recursive icon lookup)
-    icon_path = /home/kayc/.icons/Tela-circle-dracula/16/actions:/home/kayc/.icons/Tela-circle-dracula/16/apps:/home/kayc/.icons/Tela-circle-dracula/16/devices:/home/kayc/.icons/Tela-circle-dracula/16/mimetypes:/home/kayc/.icons/Tela-circle-dracula/16/panel:/home/kayc/.icons/Tela-circle-dracula/16/places:/home/kayc/.icons/Tela-circle-dracula/16/status
+    icon_path = /home/ayush/.icons/Tela-circle-dracula/16/actions:/home/ayush/.icons/Tela-circle-dracula/16/apps:/home/ayush/.icons/Tela-circle-dracula/16/devices:/home/ayush/.icons/Tela-circle-dracula/16/mimetypes:/home/ayush/.icons/Tela-circle-dracula/16/panel:/home/ayush/.icons/Tela-circle-dracula/16/places:/home/ayush/.icons/Tela-circle-dracula/16/status
 
     ### History ###
 
@@ -231,7 +231,7 @@
     ### Misc/Advanced ###
 
     # dmenu path.
-    dmenu = /usr/bin/rofi -config "/home/kayc/.config/rofi/notification.rasi" -dmenu -p dunst:
+    dmenu = /usr/bin/rofi -config "/home/ayush/.config/rofi/notification.rasi" -dmenu -p dunst:
 
     # Browser for opening urls in context menu.
     browser = /usr/bin/xdg-open
@@ -445,19 +445,19 @@
     background = "#f5e0dc"
     foreground = "#1e1e2e"
     frame_color = "#f38ba8"
-    icon = "/home/kayc/.config/dunst/icons/critical.svg"
+    icon = "/home/ayush/.config/dunst/icons/critical.svg"
     timeout = 0
 
 [urgency_low]
-    background = "#7465A380"
-    foreground = "#D8CCFFE6"
-    frame_color = "#7465A303"
-    icon = "/home/kayc/.config/dunst/icons/hyprdots.svg"
+    background = "#A3658C80"
+    foreground = "#FFCCECE6"
+    frame_color = "#A3658C03"
+    icon = "/home/ayush/.config/dunst/icons/hyprdots.svg"
     timeout = 5
 
 [urgency_normal]
-    background = "#3A3F6B80"
-    foreground = "#CCD1FFE6"
-    frame_color = "#3A3F6B03"
-    icon = "/home/kayc/.config/dunst/icons/hyprdots.svg"
+    background = "#523A6B80"
+    foreground = "#E5CCFFE6"
+    frame_color = "#523A6B03"
+    icon = "/home/ayush/.config/dunst/icons/hyprdots.svg"
     timeout = 5

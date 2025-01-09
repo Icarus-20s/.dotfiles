@@ -11,9 +11,9 @@ setopt HIST_IGNORE_DUPS
 setopt ignoreeof 	# Remove ctrl+d to exit
 
 export EDITOR=nano
-export DF="/home/kayc/.dotfiles"
-export CF="/home/kayc/.config"
-export NSXIV_OPTS="/home/kayc/Misc/Wallpapers/"
+export DF="/home/ayush/.dotfiles"
+export CF="/home/ayush/.config"
+export NSXIV_OPTS="/home/ayush/Misc/wallpaper/"
 
 stty -ixon
 
@@ -196,6 +196,6 @@ eval "$(zoxide init zsh)"
 
 ## [Completion]
 ## Completion scripts setup. Remove the following line to uninstall
-[[ -f /home/kayc/.dart-cli-completion/zsh-config.zsh ]] && . /home/kayc/.dart-cli-completion/zsh-config.zsh || true
+[[ -f /home/ayush/.dart-cli-completion/zsh-config.zsh ]] && . /home/ayush/.dart-cli-completion/zsh-config.zsh || true
 ## [/Completion]
 
